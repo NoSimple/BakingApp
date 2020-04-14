@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <!-- Base application theme. -->
@@ -6,23 +7,19 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
-    </style>
-
-    <style name="TextError">
-        <item name="android:textSize">16sp</item>
-        <item name="android:textColor">@color/colorBlack</item>
-    </style>
-
-    <style name="TextTitle">
         <item name="android:textSize">20sp</item>
+    </style>
+
+    <style name="label_text">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
         <item name="android:textColor">@color/colorPrimaryDark</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
     </style>
 
-    <style name="TextButton">
-        <item name="android:textSize">18sp</item>
-        <item name="android:textColor">@color/colorWhite</item>
-        <item name="android:textStyle">bold</item>
+    <style name="textSize">
+        <item name="android:textSize">20sp</item>
     </style>
 
 </resources>

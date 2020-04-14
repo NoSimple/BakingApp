@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:configure="ga.demi.bakingapp.widget.AppWidget"
+    android:initialLayout="@layout/recipe_widget"
+    android:minWidth="280dp"
+    android:minHeight="260dp"
+    android:previewImage="@drawable/baking_img"
+    android:resizeMode="horizontal|vertical"
+    android:updatePeriodMillis="2400000"
+    android:widgetCategory="home_screen" />

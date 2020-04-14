@@ -5,7 +5,7 @@ import com.google.gson.annotations.SerializedName;
 
 import java.util.List;
 
-public class Example {
+public class Recipe {
 
     @SerializedName("id")
     @Expose
@@ -15,10 +15,10 @@ public class Example {
     private String name;
     @SerializedName("ingredients")
     @Expose
-    private List<Ingredient> ingredients = null;
+    private List<Ingredient> ingredients;
     @SerializedName("steps")
     @Expose
-    private List<Step> steps = null;
+    private List<Step> steps;
     @SerializedName("servings")
     @Expose
     private Integer servings;

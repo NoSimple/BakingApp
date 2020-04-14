@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">Baking App</string>
+    <string name="recipes_title">Recipes</string>
+    <string name="error_message">No network connection</string>
+    <string name="button_connect">Try again</string>
+    <string name="button_next_text">NEXT</string>
+    <string name="button_back_text">BACK</string>
+    <string name="button_exit_text">EXIT</string>
+    <string name="text_title_description">Description</string>
+    <string name="ingredients_title">Ingredients list</string>
+    <string name="text_recipe_empty">Empty widget</string>
+    <string name="text_save_widget">Saved widget</string>
 </resources>
